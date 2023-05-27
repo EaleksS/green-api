@@ -1,0 +1,28 @@
+.search {
+  background: #202c33;
+  border-radius: 5px;
+  border: 0;
+  height: 2rem;
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  align-items: center;
+  gap: 15px;
+  padding: 0 10px;
+  overflow: hidden;
+
+  div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    input {
+      font-weight: 400;
+      font-size: 12px;
+      outline: none;
+      height: 100%;
+      border: 0;
+      background: transparent;
+      color: #fff;
+    }
+  }
+}

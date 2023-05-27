@@ -1,2 +1,0 @@
-# green-api
-GREEN-API
